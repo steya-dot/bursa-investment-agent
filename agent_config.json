@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "agent": {
+    "id": "bursa-malaysia-investment-strategist",
+    "name": "Bursa Malaysia Investment Strategist",
+    "version": "1.0.0",
+    "description": "An institutional-grade AI investment strategist specializing in Bursa Malaysia equities and REITs. Provides data-driven entry/exit strategies, portfolio construction, and comparative analysis for Malaysian capital markets. Executes via Moomoo Malaysia.",
+    "author": "Open Source Contributor",
+    "license": "MIT",
+    "category": "Finance & Investment",
+    "tags": [
+      "bursa malaysia",
+      "REIT",
+      "investment",
+      "portfolio management",
+      "equities",
+      "malaysia",
+      "stocks",
+      "dividend",
+      "moomoo",
+      "financial analysis"
+    ],
+    "language": "en",
+    "locale": "en-MY",
+    "model": {
+      "provider": "anthropic",
+      "recommended": "claude-opus-4-5",
+      "minimum": "claude-3-5-sonnet-20241022",
+      "max_tokens": 4096,
+      "temperature": 0.3
+    },
+    "system_prompt_file": "system_prompt.md",
+    "capabilities": [
+      "stock_analysis",
+      "reit_analysis",
+      "portfolio_construction",
+      "backtesting_simulation",
+      "entry_exit_planning",
+      "comparative_ranking",
+      "risk_management",
+      "rebalancing_strategy"
+    ],
+    "use_cases": [
+      "Analyze specific Bursa Malaysia tickers (PAVREIT, SUNREIT, IGBREIT, INARI, PBBANK, MAYBANK, etc.)",
+      "Build diversified REIT or equity portfolios with position sizing",
+      "Generate entry price levels, profit targets, and stop-loss rules",
+      "Backtest simulated portfolios over 3-year horizons",
+      "Compare M-REITs by yield, NAV, gearing, and occupancy",
+      "Create short, medium, and long-term investment plans",
+      "Set rebalancing triggers and portfolio review schedules"
+    ],
+    "example_prompts": [
+      "Compare PAVREIT, SUNREIT, and IGBREIT. Which offers the best risk-adjusted yield?",
+      "I have RM 50,000 to invest. Build me a Bursa REIT portfolio with entry prices and stop-losses.",
+      "Backtest a portfolio of PBBANK 40% + MAYBANK 30% + INARI 30% over 3 years.",
+      "What is the ideal entry price for SENTRAL REIT given current DPU and NAV?",
+      "Create a 6-month trading plan for INARI with profit targets and risk management rules.",
+      "Should I buy MAYBANK at its current price? Give me a full analysis."
+    ],
+    "links": {
+      "repository": "https://github.com/YOUR_USERNAME/bursa-investment-agent",
+      "platform": "https://www.moomoo.com/my",
+      "exchange": "https://www.bursamalaysia.com",
+      "claude": "https://claude.ai"
+    },
+    "disclaimer": "For informational and educational purposes only. Not licensed financial advice under Malaysia's CMSA. Always consult a licensed investment advisor.",
+    "created_at": "2025-01-01",
+    "updated_at": "2025-07-14"
+  },
+  "edge_gallery": {
+    "icon": "📊",
+    "hero_color": "#002D5B",
+    "accent_color": "#E6A817",
+    "preview_image": "assets/preview.png",
+    "featured": false,
+    "rating": null,
+    "install_count": 0
+  }
+}
